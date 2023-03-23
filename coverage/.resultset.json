@@ -283,6 +283,79 @@
         "branches": {
         }
       },
+      "/Users/brandenge/courses/turing/2mod/set_list/spec/features/songs/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          6,
+          1,
+          5,
+          null,
+          null,
+          null,
+          null,
+          1,
+          5,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ],
+        "branches": {
+        }
+      },
+      "/Users/brandenge/courses/turing/2mod/set_list/spec/models/artist_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null
+        ],
+        "branches": {
+        }
+      },
       "/Users/brandenge/courses/turing/2mod/set_list/app/models/artist.rb": {
         "lines": [
           1,
@@ -301,6 +374,19 @@
         "branches": {
         }
       },
+      "/Users/brandenge/courses/turing/2mod/set_list/spec/models/song_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null
+        ],
+        "branches": {
+        }
+      },
       "/Users/brandenge/courses/turing/2mod/set_list/app/models/song.rb": {
         "lines": [
           1,
@@ -314,11 +400,11 @@
         "lines": [
           1,
           1,
-          0,
+          3,
           null,
           null,
           1,
-          2,
+          5,
           null,
           null
         ],
@@ -334,6 +420,6 @@
         }
       }
     },
-    "timestamp": 1679535523
+    "timestamp": 1679536640
   }
 }
