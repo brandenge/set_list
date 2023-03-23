@@ -3,16 +3,14 @@ require 'rails_helper'
 RSpec.describe "song show page", type: :feature do
   let!(:artist) { Artist.create!(name: 'Carly Rae Jepsen') }
   let!(:song_1) do
-    Song.create!(title:       "I Really Like You",
-                 length:      208,
-                 play_count:  243810867,
-                 artist_id:   artist.id)
+    artist.songs.create!(title:       "I Really Like You",
+                         length:      208,
+                         play_count:  243810867)
   end
   let!(:song_2) do
-    Song.create!(title:       "Call Me Maybe",
-                 length:      199,
-                 play_count:  1214722172,
-                 artist_id:   artist.id)
+    artist.songs.create!(title:       "Call Me Maybe",
+                         length:      199,
+                         play_count:  1214722172)
   end
 
   it 'can see the song\'s title, length, and play count' do
