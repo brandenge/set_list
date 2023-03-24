@@ -1,6 +1,6 @@
 class Song < ApplicationRecord
   validates_presence_of :title
-  validates_presence_of :length
+  validates :length, presence: true
   validates_presence_of :play_count
   validates_presence_of :artist_id
 
